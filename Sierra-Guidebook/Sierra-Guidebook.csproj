@@ -50,31 +50,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Libraries\Excel\ExcelHelper.cs" />
-    <Compile Include="Libraries\Excel\ExcelInteropService.cs" />
-    <Compile Include="Libraries\Excel\ExcelWrapper.cs" />
-    <Compile Include="Libraries\ProcessorLibrary.cs" />
     <Compile Include="Model\BaseRegionDirectory.cs" />
     <Compile Include="Model\BaseDirectory.cs" />
     <Compile Include="Model\ChildRegion.cs" />
     <Compile Include="Model\Directories.cs" />
     <Compile Include="Model\DirectorySyncer.cs" />
     <Compile Include="Model\Formation.cs" />
-    <Compile Include="Libraries\Trees\ITreeNode.cs" />
     <Compile Include="Model\ParentRegion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\Route.cs" />
     <Compile Include="Model\SubFormation.cs" />
-    <Compile Include="Libraries\Trees\TreeNode.cs" />
-    <Compile Include="Libraries\Trees\TreeNodeComparer.cs" />
-    <Compile Include="Libraries\Trees\TreeNodeIO.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Libraries\Retry.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -117,7 +108,24 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\..\TFS-Connected\Main\DLLs\MPT.Tools\MPT.Coding\MPT.Coding\MPT.Coding.csproj">
+      <Project>{1751e8b4-c3c3-4fcd-b537-66eabbf735a6}</Project>
+      <Name>MPT.Coding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\TFS-Connected\Main\DLLs\MPT.Tools\MPT.Excel\MPT.Excel\MPT.Excel.csproj">
+      <Project>{04b064ac-05ea-4ed5-a6de-add66cc58345}</Project>
+      <Name>MPT.Excel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\TFS-Connected\Main\DLLs\MPT.Tools\MPT.Processor\MPT.Processor\MPT.Processor.csproj">
+      <Project>{225f50d0-882b-4a5b-b9b5-de7f13c90460}</Project>
+      <Name>MPT.Processor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\TFS-Connected\Main\DLLs\MPT.Tools\MPT.Trees\MPT.Trees\MPT.Trees.csproj">
+      <Project>{71c73705-c783-4776-8be5-e6bc85707d84}</Project>
+      <Name>MPT.Trees</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

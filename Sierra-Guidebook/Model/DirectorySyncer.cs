@@ -6,6 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
 
+using MPT.Excel;
+using MPT.Trees;
+
 namespace Sierra_Guidebook
 {
     public class DirectorySyncer
