@@ -1,0 +1,8 @@
+Issues:
+
+2. Rows not properly duplicated
+
+
+Close Excel (from within Excel?)
+Run .exe with appropriate parameters.
+Open Excel.

@@ -1,0 +1,10 @@
+runTests
+
+
+syncDirectories "C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\bin\Sierra Guidebook.xlsm"
+
+
+syncExcel "C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\bin\Sierra Guidebook.xlsm"
+
+
+syncBothExcelAndDirectories "C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\bin\Sierra Guidebook.xlsm"

@@ -1,0 +1,10 @@
+C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\bin\Debug\Sierra-Guidebook.exe.config
+C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\bin\Debug\Sierra-Guidebook.exe
+C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\bin\Debug\Sierra-Guidebook.pdb
+C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\obj\Debug\Sierra-Guidebook.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\obj\Debug\Sierra-Guidebook.exe
+C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\obj\Debug\Sierra-Guidebook.pdb
+C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\obj\Debug\Sierra-Guidebook.csproj.ResolveComReference.cache
+C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\obj\Debug\Sierra_Guidebook.Properties.Resources.resources
+C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\obj\Debug\Sierra-Guidebook.csproj.GenerateResource.Cache
+C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\Sierra-Guidebook\bin\Debug\Sierra Guidebook.ico
