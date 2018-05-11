@@ -1,13 +1,20 @@
 dist: trusty
 sudo: required
 language: csharp
-mono: none
-dotnet: 1.0.9
 solution: ./DB-Location-XReferencer/DB-Location-XReferencer.sln
 
+#script:
+# - cd DB-Location-XReferencer
+# - dotnet restore
+# - dotnet build -f net452
+ 
+install:
+  - cd DB-Location-XReferencer
+  - nuget restore ./DB-Location-XReferencer/DB-Location-XReferencer.sln
+#  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
- - cd DB-Location-XReferencer
- - dotnet restore
- - dotnet build -f net452
+  - cd DB-Location-XReferencer
+  - xbuild /p:Configuration=Release ./DB-Location-XReferencer/DB-Location-XReferencer.sln /p:TargetFrameworkVersion="v4.5.2"
+#  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./MyProject.Tests/bin/Release/MyProject.Tests.dll
  
 # https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build?tabs=netcore1x
