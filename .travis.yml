@@ -2,10 +2,12 @@ dist: trusty
 sudo: required
 language: csharp
 mono: none
-dotnet: 1.0.4
+dotnet: 1.0.9
 solution: ./DB-Location-XReferencer/DB-Location-XReferencer.sln
 
 script:
  - cd DB-Location-XReferencer
  - dotnet restore
- - dotnet build
+ - dotnet build -f net452
+ 
+# https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build?tabs=netcore1x
