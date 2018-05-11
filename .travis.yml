@@ -2,7 +2,7 @@ dist: trusty
 sudo: required
 language: csharp
 mono: none
-dotnet: 1.0.1
+dotnet: 1.0.4
 solution: ./DB-Location-XReferencer/DB-Location-XReferencer.sln
 
 script:
