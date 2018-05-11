@@ -1,0 +1,1845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Folder>
+    <name>Regions</name>
+    <Folder>
+      <name>Arrow Peak Area</name>
+      <Folder>
+        <name>Arrow Peak</name>
+        <Placemark>
+          <name>Goodale Mountain</name>
+          <Point>
+            <coordinates>-118.386292,36.971984999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Brewer Area</name>
+      <Folder>
+        <name>Mount Brewer</name>
+        <Placemark>
+          <name>The Sphinx</name>
+          <Point>
+            <coordinates>-118.550416,36.771225999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Francis Farquar</name>
+        <Placemark>
+          <name>The Sphinx</name>
+          <Point>
+            <coordinates>-118.550416,36.771225999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>North Guard</name>
+        <Placemark>
+          <name>The Sphinx</name>
+          <Point>
+            <coordinates>-118.550416,36.771225999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>North Sentinel</name>
+        <Placemark>
+          <name>The Sphinx</name>
+          <Point>
+            <coordinates>-118.550416,36.771225999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>The Sphinx</name>
+        <Placemark>
+          <name>The Sphinx</name>
+          <Point>
+            <coordinates>-118.550416,36.771225999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Thunder Mountain</name>
+        <Placemark>
+          <name>The Sphinx</name>
+          <Point>
+            <coordinates>-118.550416,36.771225999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Cathedral Area</name>
+      <Folder>
+        <name>Cathedral Peak</name>
+        <Placemark>
+          <name>Cathedral Peak</name>
+          <Point>
+            <coordinates>-119.40560600000001,37.847808000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Cockscomb</name>
+        <Placemark>
+          <name>Cathedral Peak</name>
+          <Point>
+            <coordinates>-119.40560600000001,37.847808000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Echo Peaks (Echo Peak #9)</name>
+        <Placemark>
+          <name>Cathedral Peak</name>
+          <Point>
+            <coordinates>-119.40560600000001,37.847808000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Echo Ridge</name>
+        <Placemark>
+          <name>Cathedral Peak</name>
+          <Point>
+            <coordinates>-119.40560600000001,37.847808000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name><![CDATA[Eichorn''s Pinnacle]]></name>
+        <Placemark>
+          <name>Cathedral Peak</name>
+          <Point>
+            <coordinates>-119.40560600000001,37.847808000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Matthes Crest</name>
+        <Placemark>
+          <name>Cathedral Peak</name>
+          <Point>
+            <coordinates>-119.40560600000001,37.847808000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Peak 11,357</name>
+        <Placemark>
+          <name>Cathedral Peak</name>
+          <Point>
+            <coordinates>-119.40560600000001,37.847808000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Tenaya Peak</name>
+        <Placemark>
+          <name>Cathedral Peak</name>
+          <Point>
+            <coordinates>-119.40560600000001,37.847808000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Unicorn Peak</name>
+        <Placemark>
+          <name>Cathedral Peak</name>
+          <Point>
+            <coordinates>-119.40560600000001,37.847808000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Clark and Cathedral Ranges</name>
+    </Folder>
+    <Folder>
+      <name>Collegiate Area</name>
+      <Folder>
+        <name>Center Peak</name>
+        <Placemark>
+          <name>Deerhorn Mountain</name>
+          <Point>
+            <coordinates>-118.410387,36.713076999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Ericsson Crags (Ericsson Crag #3)</name>
+        <Placemark>
+          <name>Deerhorn Mountain</name>
+          <Point>
+            <coordinates>-118.410387,36.713076999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Junction Peak</name>
+        <Placemark>
+          <name>Deerhorn Mountain</name>
+          <Point>
+            <coordinates>-118.410387,36.713076999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Kearsarge Pinnacles</name>
+        <Placemark>
+          <name>Deerhorn Mountain</name>
+          <Point>
+            <coordinates>-118.410387,36.713076999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Ericsson</name>
+        <Placemark>
+          <name>Deerhorn Mountain</name>
+          <Point>
+            <coordinates>-118.410387,36.713076999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Stanford</name>
+        <Placemark>
+          <name>Deerhorn Mountain</name>
+          <Point>
+            <coordinates>-118.410387,36.713076999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Desolation Area</name>
+    </Folder>
+    <Folder>
+      <name>Donner Pass North</name>
+    </Folder>
+    <Folder>
+      <name>Ebbets-Mono-Carson Pass Area</name>
+      <Folder>
+        <name>Calaveras Dome</name>
+        <Placemark>
+          <name>Hawkins Peak</name>
+          <Point>
+            <coordinates>-119.872452,38.738565999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Evolution Region</name>
+    </Folder>
+    <Folder>
+      <name>Grand Canyon of the Tuolumne</name>
+    </Folder>
+    <Folder>
+      <name>Great Western Divide Area</name>
+      <Folder>
+        <name>Peak 11,480</name>
+        <Placemark>
+          <name>Mount Eisen</name>
+          <Point>
+            <coordinates>-118.56867699999999,36.500520999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Peak 11,880</name>
+        <Placemark>
+          <name>Mount Eisen</name>
+          <Point>
+            <coordinates>-118.56867699999999,36.500520999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>High Passes</name>
+    </Folder>
+    <Folder>
+      <name>Inconsolable Range</name>
+    </Folder>
+    <Folder>
+      <name>June Lake Area</name>
+    </Folder>
+    <Folder>
+      <name>Kaweahs and Great Western Divide</name>
+    </Folder>
+    <Folder>
+      <name>Kettle Ridge and the LeConte Divide</name>
+    </Folder>
+    <Folder>
+      <name>Kings-Kern Divide</name>
+    </Folder>
+    <Folder>
+      <name>Lake Tahoe East Area</name>
+    </Folder>
+    <Folder>
+      <name>LeConte Divide</name>
+    </Folder>
+    <Folder>
+      <name>Mammoth Lakes Area</name>
+      <Folder>
+        <name>Crystal Crag</name>
+        <Placemark>
+          <name>Mammoth Mountain</name>
+          <Point>
+            <coordinates>-119.03255900000001,37.630496000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mammoth Lakes and the Silver Divide</name>
+    </Folder>
+    <Folder>
+      <name>Minarets and June Lake</name>
+    </Folder>
+    <Folder>
+      <name>Mineral King Area</name>
+    </Folder>
+    <Folder>
+      <name>Monarch Divide and the Cirque Crest</name>
+    </Folder>
+    <Folder>
+      <name>Mono Recesses</name>
+    </Folder>
+    <Folder>
+      <name>Mt Clarence King Area</name>
+      <Folder>
+        <name>Bubbs Creek Wall</name>
+        <Placemark>
+          <name>Mount Baxter</name>
+          <Point>
+            <coordinates>-118.362139,36.861513000000002</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Charlotte Dome</name>
+        <Placemark>
+          <name>Mount Baxter</name>
+          <Point>
+            <coordinates>-118.362139,36.861513000000002</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Dragon Peak</name>
+        <Placemark>
+          <name>Mount Baxter</name>
+          <Point>
+            <coordinates>-118.362139,36.861513000000002</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Bago</name>
+        <Placemark>
+          <name>Mount Baxter</name>
+          <Point>
+            <coordinates>-118.362139,36.861513000000002</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Clarence King</name>
+        <Placemark>
+          <name>Mount Baxter</name>
+          <Point>
+            <coordinates>-118.362139,36.861513000000002</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Cotter (North Cotter)</name>
+        <Placemark>
+          <name>Mount Baxter</name>
+          <Point>
+            <coordinates>-118.362139,36.861513000000002</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Gardiner</name>
+        <Placemark>
+          <name>Mount Baxter</name>
+          <Point>
+            <coordinates>-118.362139,36.861513000000002</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mt Clark Area</name>
+      <Folder>
+        <name>Mount Clark</name>
+        <Placemark>
+          <name>Mount Starr King</name>
+          <Point>
+            <coordinates>-119.51755300000001,37.702759999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mt Conness Area</name>
+      <Folder>
+        <name>Mount Conness</name>
+        <Placemark>
+          <name>Dunderberg Peak (Castle Peak Benchmark)</name>
+          <Point>
+            <coordinates>-119.27432500000001,38.064543</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>North Peak</name>
+        <Placemark>
+          <name>Dunderberg Peak (Castle Peak Benchmark)</name>
+          <Point>
+            <coordinates>-119.27432500000001,38.064543</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mt Dana Area</name>
+      <Folder>
+        <name>Dana Plateau</name>
+        <Placemark>
+          <name>Kuna Peak</name>
+          <Point>
+            <coordinates>-119.208275,37.812905999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Dana</name>
+        <Placemark>
+          <name>Kuna Peak</name>
+          <Point>
+            <coordinates>-119.208275,37.812905999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mt Darwin Area</name>
+      <Folder>
+        <name>Cardinal Pinnacle</name>
+        <Placemark>
+          <name>Pavilion Dome</name>
+          <Point>
+            <coordinates>-118.809155,37.230635999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Clyde Spires</name>
+        <Placemark>
+          <name>Pavilion Dome</name>
+          <Point>
+            <coordinates>-118.809155,37.230635999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Glacier Divide</name>
+        <Placemark>
+          <name>Pavilion Dome</name>
+          <Point>
+            <coordinates>-118.809155,37.230635999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Darwin</name>
+        <Placemark>
+          <name>Pavilion Dome</name>
+          <Point>
+            <coordinates>-118.809155,37.230635999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Gilbert</name>
+        <Placemark>
+          <name>Pavilion Dome</name>
+          <Point>
+            <coordinates>-118.809155,37.230635999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Goode</name>
+        <Placemark>
+          <name>Pavilion Dome</name>
+          <Point>
+            <coordinates>-118.809155,37.230635999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Haeckel</name>
+        <Placemark>
+          <name>Pavilion Dome</name>
+          <Point>
+            <coordinates>-118.809155,37.230635999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Lamarck</name>
+        <Placemark>
+          <name>Pavilion Dome</name>
+          <Point>
+            <coordinates>-118.809155,37.230635999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount McGee</name>
+        <Placemark>
+          <name>Pavilion Dome</name>
+          <Point>
+            <coordinates>-118.809155,37.230635999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Mendel</name>
+        <Placemark>
+          <name>Pavilion Dome</name>
+          <Point>
+            <coordinates>-118.809155,37.230635999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Thompson</name>
+        <Placemark>
+          <name>Pavilion Dome</name>
+          <Point>
+            <coordinates>-118.809155,37.230635999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Picture Peak</name>
+        <Placemark>
+          <name>Pavilion Dome</name>
+          <Point>
+            <coordinates>-118.809155,37.230635999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mt Goddard Area</name>
+      <Folder>
+        <name><![CDATA[Devil''s Crags (Devil''s Crag #1)]]></name>
+        <Placemark>
+          <name>Mount Solomons</name>
+          <Point>
+            <coordinates>-118.674222,37.106456000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Langille Peak</name>
+        <Placemark>
+          <name>Mount Solomons</name>
+          <Point>
+            <coordinates>-118.674222,37.106456000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Charybdis</name>
+        <Placemark>
+          <name>Mount Solomons</name>
+          <Point>
+            <coordinates>-118.674222,37.106456000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Goddard</name>
+        <Placemark>
+          <name>Mount Solomons</name>
+          <Point>
+            <coordinates>-118.674222,37.106456000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>The Citadel</name>
+        <Placemark>
+          <name>Mount Solomons</name>
+          <Point>
+            <coordinates>-118.674222,37.106456000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mt Humphreys Area</name>
+      <Folder>
+        <name>Basin Mountain</name>
+        <Placemark>
+          <name>Mount Tom</name>
+          <Point>
+            <coordinates>-118.65700800000001,37.338479</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Checkered Demon</name>
+        <Placemark>
+          <name>Mount Tom</name>
+          <Point>
+            <coordinates>-118.65700800000001,37.338479</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Emerson</name>
+        <Placemark>
+          <name>Mount Tom</name>
+          <Point>
+            <coordinates>-118.65700800000001,37.338479</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Humphreys</name>
+        <Placemark>
+          <name>Mount Tom</name>
+          <Point>
+            <coordinates>-118.65700800000001,37.338479</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mt Langley Area</name>
+      <Folder>
+        <name>Mount Langley</name>
+        <Placemark>
+          <name>Mount Langley</name>
+          <Point>
+            <coordinates>-118.239526,36.523448999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mt Lyell</name>
+      <Folder>
+        <name>Mount Lyell</name>
+        <Placemark>
+          <name>Parsons Peak-Northwest Ridge</name>
+          <Point>
+            <coordinates>-119.309488,37.778174999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Maclure</name>
+        <Placemark>
+          <name>Parsons Peak-Northwest Ridge</name>
+          <Point>
+            <coordinates>-119.309488,37.778174999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Vogelsang Peak</name>
+        <Placemark>
+          <name>Parsons Peak-Northwest Ridge</name>
+          <Point>
+            <coordinates>-119.309488,37.778174999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mt Morrison Area</name>
+      <Folder>
+        <name>Bloody Mountain</name>
+        <Placemark>
+          <name>Mount Morrison</name>
+          <Point>
+            <coordinates>-118.858424,37.561394</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Laurel Mountain</name>
+        <Placemark>
+          <name>Mount Morrison</name>
+          <Point>
+            <coordinates>-118.858424,37.561394</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Morgan (North)</name>
+        <Placemark>
+          <name>Mount Morrison</name>
+          <Point>
+            <coordinates>-118.858424,37.561394</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Morrison</name>
+        <Placemark>
+          <name>Mount Morrison</name>
+          <Point>
+            <coordinates>-118.858424,37.561394</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Red and White Mountain</name>
+        <Placemark>
+          <name>Mount Morrison</name>
+          <Point>
+            <coordinates>-118.858424,37.561394</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Red Slate Mountain</name>
+        <Placemark>
+          <name>Mount Morrison</name>
+          <Point>
+            <coordinates>-118.858424,37.561394</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Torre de Mierda</name>
+        <Placemark>
+          <name>Mount Morrison</name>
+          <Point>
+            <coordinates>-118.858424,37.561394</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mt Ruskin Area</name>
+      <Folder>
+        <name>Luoma Peak</name>
+        <Placemark>
+          <name>Vennacher Needle</name>
+          <Point>
+            <coordinates>-118.474092,36.998843000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Peak 12882</name>
+        <Placemark>
+          <name>Vennacher Needle</name>
+          <Point>
+            <coordinates>-118.474092,36.998843000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mt Whitney Area</name>
+      <Folder>
+        <name>Aiguille Extra</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Arctic Lake Wall East</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Arctic Lake Wall West</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Cleaver Peak</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Crabtree Crags</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Day Needle</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Fourth Needle</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Gamblers Special</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Keeler Needle</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Lone Pine Peak</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Carl Heller</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Chamberlain</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Hitchcock</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Irvine</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount LeConte</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount McAdie</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Muir</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Newcomb</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Russell</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Whitney</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mt Hale</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Red Baron Tower</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Third Needle</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Thor Peak</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Tulainyo Tower</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mt Corcoran</name>
+        <Placemark>
+          <name>Mount Carl Heller</name>
+          <Point>
+            <coordinates>-118.298654,36.611593999999997</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Mt Williamson Area</name>
+      <Folder>
+        <name>Mount Barnard</name>
+        <Placemark>
+          <name>Polychrome Peak</name>
+          <Point>
+            <coordinates>-118.33452699999999,36.672603000000002</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Tyndall</name>
+        <Placemark>
+          <name>Polychrome Peak</name>
+          <Point>
+            <coordinates>-118.33452699999999,36.672603000000002</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Williamson</name>
+        <Placemark>
+          <name>Polychrome Peak</name>
+          <Point>
+            <coordinates>-118.33452699999999,36.672603000000002</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Shaw Spire</name>
+        <Placemark>
+          <name>Polychrome Peak</name>
+          <Point>
+            <coordinates>-118.33452699999999,36.672603000000002</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>North Lake Tahoe Area</name>
+    </Folder>
+    <Folder>
+      <name>Northern Sierra</name>
+    </Folder>
+    <Folder>
+      <name>Northern Yosemite</name>
+    </Folder>
+    <Folder>
+      <name>Palisade Range</name>
+      <Folder>
+        <name>Disappointment Peak</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Isosceles Peak</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Middle Palisade</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Agassiz</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Gayley</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Robinson</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Sill</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Winchell</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Norman Clyde Peak</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>North Palisade</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Palisade Crest</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Polemonium Peak</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Starlight Peak</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Temple Crag</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>The Thumb</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Thunderbolt Peak</name>
+        <Placemark>
+          <name>Mount Agassiz</name>
+          <Point>
+            <coordinates>-118.530694,37.111930999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Palisades Region</name>
+    </Folder>
+    <Folder>
+      <name>Ritter Range Area</name>
+      <Folder>
+        <name>Banner Peak</name>
+        <Placemark>
+          <name>Banner Peak</name>
+          <Point>
+            <coordinates>-119.19466,37.696570000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Clyde Minaret</name>
+        <Placemark>
+          <name>Banner Peak</name>
+          <Point>
+            <coordinates>-119.19466,37.696570000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Ken Minaret</name>
+        <Placemark>
+          <name>Banner Peak</name>
+          <Point>
+            <coordinates>-119.19466,37.696570000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Michael Minaret</name>
+        <Placemark>
+          <name>Banner Peak</name>
+          <Point>
+            <coordinates>-119.19466,37.696570000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Ritter</name>
+        <Placemark>
+          <name>Banner Peak</name>
+          <Point>
+            <coordinates>-119.19466,37.696570000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Rock Creek Area</name>
+      <Folder>
+        <name>Bear Creek Spire</name>
+        <Placemark>
+          <name>Petit Griffon</name>
+          <Point>
+            <coordinates>-118.788394,37.391407000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Granite Park Spire</name>
+        <Placemark>
+          <name>Petit Griffon</name>
+          <Point>
+            <coordinates>-118.788394,37.391407000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Little Lakes Peak</name>
+        <Placemark>
+          <name>Petit Griffon</name>
+          <Point>
+            <coordinates>-118.788394,37.391407000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Abbot</name>
+        <Placemark>
+          <name>Petit Griffon</name>
+          <Point>
+            <coordinates>-118.788394,37.391407000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Dade</name>
+        <Placemark>
+          <name>Petit Griffon</name>
+          <Point>
+            <coordinates>-118.788394,37.391407000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Morgan (South)</name>
+        <Placemark>
+          <name>Petit Griffon</name>
+          <Point>
+            <coordinates>-118.788394,37.391407000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Petit Griffon</name>
+        <Placemark>
+          <name>Petit Griffon</name>
+          <Point>
+            <coordinates>-118.788394,37.391407000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Ruby Peak</name>
+        <Placemark>
+          <name>Petit Griffon</name>
+          <Point>
+            <coordinates>-118.788394,37.391407000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Third Recess Peak</name>
+        <Placemark>
+          <name>Petit Griffon</name>
+          <Point>
+            <coordinates>-118.788394,37.391407000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Sawtooth Ridge Area</name>
+      <Folder>
+        <name>Blacksmith Peak</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Dragtooth</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Flatiron Butte</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Incredible Hulk</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Incredulous Bulk</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Juggernaut</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Matterhorn Peak</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Bandaloop</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Outguard Spire</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Regge Pole</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>The Duck</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>The Turret</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Whorl Mountain</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>The Thing</name>
+        <Placemark>
+          <name>Crown Point</name>
+          <Point>
+            <coordinates>-119.457565,38.110984999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Seven Gables Area</name>
+      <Folder>
+        <name>Feather Peak</name>
+        <Placemark>
+          <name>Feather Peak</name>
+          <Point>
+            <coordinates>-118.77800000000001,37.325941999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Merriam Peak</name>
+        <Placemark>
+          <name>Feather Peak</name>
+          <Point>
+            <coordinates>-118.77800000000001,37.325941999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Seven Gables (North Peak)</name>
+        <Placemark>
+          <name>Feather Peak</name>
+          <Point>
+            <coordinates>-118.77800000000001,37.325941999999998</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Sierra Foothills</name>
+    </Folder>
+    <Folder>
+      <name>Silver Divide Area</name>
+    </Folder>
+    <Folder>
+      <name>Sonora-Ebbets-Mono Pass Area</name>
+    </Folder>
+    <Folder>
+      <name>South Lake Tahoe Area</name>
+    </Folder>
+    <Folder>
+      <name>South Sonora Pass</name>
+    </Folder>
+    <Folder>
+      <name>South Sonora Pass Area</name>
+    </Folder>
+    <Folder>
+      <name>Southeast Sierra</name>
+    </Folder>
+    <Folder>
+      <name>Southeast Yosemite Crest</name>
+    </Folder>
+    <Folder>
+      <name>Southern Sierra</name>
+    </Folder>
+    <Folder>
+      <name>Southwest Sierra</name>
+      <Folder>
+        <name>Voodoo Dome</name>
+        <Placemark>
+          <name>Homers Nose</name>
+          <Point>
+            <coordinates>-118.737775,36.385043000000003</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Southwest Sierra Foothills</name>
+    </Folder>
+    <Folder>
+      <name>Southwest Sonora Pass Area</name>
+    </Folder>
+    <Folder>
+      <name>Southwest Yosemite</name>
+    </Folder>
+    <Folder>
+      <name>Spanish Mountain Area</name>
+      <Folder>
+        <name>The Obelisk</name>
+        <Placemark>
+          <name>Spanish Mountain</name>
+          <Point>
+            <coordinates>-118.891464,36.909092999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Split Mountain Area</name>
+      <Folder>
+        <name><![CDATA["Son of Split"]]></name>
+        <Placemark>
+          <name>Birch Mountain</name>
+          <Point>
+            <coordinates>-118.419014,37.062766000000003</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Split Mountain</name>
+        <Placemark>
+          <name>Birch Mountain</name>
+          <Point>
+            <coordinates>-118.419014,37.062766000000003</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Tablelands and Hamilton Lakes Area</name>
+      <Folder>
+        <name>Angel Wings</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Castle Rock Spire</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Darth Vader Tower</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Eagle Scout Creek Dome</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Eagle Scout Peak</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Hamilton Dome</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Lippincott Mountain</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Lower Tokopah Dome</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Moro Rock</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Mount Stewart</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Panther Peak</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Periscope Dome</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Saber Ridge</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Santa Cruz Dome</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Spring Lake Wall</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>The Fin</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>The Fortress</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>The Globe</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>The Prism</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name><![CDATA[The Serpent's Tooth]]></name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>The Watchtower</name>
+        <Placemark>
+          <name>Sentinel Dome</name>
+          <Point>
+            <coordinates>-118.644779,36.758856999999999</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>The Kaweahs Area</name>
+      <Folder>
+        <name>Big Kaweah</name>
+        <Placemark>
+          <name>Table Mountain</name>
+          <Point>
+            <coordinates>-118.473747,36.660519000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Black Kaweah</name>
+        <Placemark>
+          <name>Table Mountain</name>
+          <Point>
+            <coordinates>-118.473747,36.660519000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Cherubim Dome</name>
+        <Placemark>
+          <name>Table Mountain</name>
+          <Point>
+            <coordinates>-118.473747,36.660519000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Milestone Mountain</name>
+        <Placemark>
+          <name>Table Mountain</name>
+          <Point>
+            <coordinates>-118.473747,36.660519000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Table Mountain</name>
+        <Placemark>
+          <name>Table Mountain</name>
+          <Point>
+            <coordinates>-118.473747,36.660519000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Tower Peak Area</name>
+      <Folder>
+        <name>Tower Peak</name>
+        <Placemark>
+          <name>Rickey Peak</name>
+          <Point>
+            <coordinates>-119.38123,38.263691000000001</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>West-Central Sierra</name>
+    </Folder>
+    <Folder>
+      <name>Wheeler Peak Area</name>
+    </Folder>
+    <Folder>
+      <name>White Divide</name>
+      <Folder>
+        <name>Tehipite Dome</name>
+        <Placemark>
+          <name>Finger Peak</name>
+          <Point>
+            <coordinates>-118.730323,37.029989</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>Whitney Region</name>
+    </Folder>
+    <Folder>
+      <name>Windy Ridge Area</name>
+    </Folder>
+  </Folder>
+</kml>

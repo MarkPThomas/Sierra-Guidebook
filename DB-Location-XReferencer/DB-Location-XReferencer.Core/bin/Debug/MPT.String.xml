@@ -1,0 +1,653 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MPT.String</name>
+    </assembly>
+    <members>
+        <member name="T:MPT.String.Boolean.BooleanExtensions">
+            <summary>
+            Extension methods to strings and classes relating to strings and booleans.
+            </summary>
+        </member>
+        <member name="M:MPT.String.Boolean.BooleanExtensions.BoolerizeNullable(System.String)">
+            <summary>
+            Converts the true/false/{unknown} string to the equivalent boolean, or null.
+            </summary>
+            <param name="value">The value.</param>
+            <returns><c>true</c> if value is some form of 'true', <c>false</c> if value is some form of 'false', <c>null</c> otherwise.</returns>
+        </member>
+        <member name="M:MPT.String.Boolean.BooleanExtensions.Boolerize(System.String)">
+            <summary>
+            Converts the true/false string to the equivalent boolean.
+            Other values are also returned as <c>false</c>.
+            </summary>
+            <param name="value">The value.</param>
+            <returns><c>true</c> if value is some form of 'true', <c>false</c> if value is some form of 'false' or any other string.</returns>
+        </member>
+        <member name="M:MPT.String.Boolean.BooleanExtensions.BoolerizeYesNoNullable(System.String)">
+            <summary>
+            Converts the yes/no/{unknown} string to the equivalent boolean, or null.
+            </summary>
+            <param name="value">The value.</param>
+            <returns><c>true</c> if value is some form of 'true', <c>false</c> if value is some form of 'false', <c>null</c> otherwise.</returns>
+        </member>
+        <member name="M:MPT.String.Boolean.BooleanExtensions.BoolerizeYesNo(System.String)">
+            <summary>
+            Converts the yes/no string to the equivalent boolean.
+            Other values are also returned as <c>false</c>.
+            </summary>
+            <param name="value">The value.</param>
+            <returns><c>true</c> if value is some form of 'true', <c>false</c> if value is some form of 'false' or any other string.</returns>
+        </member>
+        <member name="M:MPT.String.Boolean.BooleanExtensions.Stringify(System.Nullable{System.Boolean},System.String,MPT.String.Characters.eCapitalization)">
+            <summary>
+            Converts the boolean to an equivalent string expression.
+            </summary>
+            <param name="value">Value to convert.</param>
+            <param name="forNull">Value to return if null.</param>
+            <param name="pattern">The pattern of capitalization to use.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Boolean.BooleanExtensions.Stringify(System.Boolean,MPT.String.Characters.eCapitalization)">
+            <summary>
+            Converts the boolean to an equivalent string expression.
+            </summary>
+            <param name="value">Value to convert.</param>
+            <param name="pattern">The pattern of capitalization to use.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Boolean.BooleanExtensions.StringifyYesNo(System.Nullable{System.Boolean},System.String,MPT.String.Characters.eCapitalization)">
+            <summary>
+            Converts the nullable boolean to an equivalent yes/no/{unknown} string expression.
+            </summary>
+            <param name="value">Value to convert.</param>
+            <param name="forNull">Value to return if null.</param>
+            <param name="pattern">The pattern of capitalization to use.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Boolean.BooleanExtensions.StringifyYesNo(System.Boolean,MPT.String.Characters.eCapitalization)">
+            <summary>
+            Converts the boolean to an equivalent yes/no string expression.
+            </summary>
+            <param name="value">Value to convert.</param>
+            <param name="pattern">The pattern of capitalization to use.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="T:MPT.String.Code.CodeExtensions">
+            <summary>
+            Extension methods to strings and classes relating to strings and conversion to different coding formats.
+            </summary>
+        </member>
+        <member name="M:MPT.String.Code.CodeExtensions.ToPascalCase(System.String)">
+            <summary>
+            Converts the string to pascal case, e.g. 'to pascal case' = 'ToPascalCase'.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Code.CodeExtensions.FromPascalCase(System.String)">
+            <summary>
+            Converts the string from pascal case to a multi-worded string, e.g. 'FromPascalCase' = 'From Pascal Case'.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Code.CodeExtensions.ToCamelCase(System.String)">
+            <summary>
+            Converts the string to camel case, e.g. 'to camel case' = 'toCamelCase'.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Code.CodeExtensions.FromCamelCase(System.String)">
+            <summary>
+            Converts the string from camel case to a multi-worded string, e.g. 'fromCamelCase' = 'from camel case'.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Code.CodeExtensions.ToSnakeCase(System.String)">
+            <summary>
+            Converts the string to snake case, e.g. 'to snake case' = 'to_snake_case'.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Code.CodeExtensions.FromSnakeCase(System.String)">
+            <summary>
+            Converts the string from snake case to a multi-worded string, e.g. 'from_Snake_case' = 'from Snake case'.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Code.CodeExtensions.ToTrainCase(System.String)">
+            <summary>
+            Converts the string to train case, e.g. 'to train case' = 'To-Train-Case'.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Code.CodeExtensions.FromTrainCase(System.String)">
+            <summary>
+            Converts the string from train case to a multi-worded string, e.g. 'From-Train-Case' = 'From Train Case'.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Code.CodeExtensions.ToKebabCase(System.String)">
+            <summary>
+            Converts the string to kebab case, e.g. 'to kebab case' = 'to-kebab-case'.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Code.CodeExtensions.FromKebabCase(System.String)">
+            <summary>
+            Converts the string from kebab case to a multi-worded string, e.g. 'from-kebab-case' = 'from kebab case'.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="T:MPT.String.Database.DatabaseExtensions">
+            <summary>
+            Extension methods to strings and classes relating to strings for common database-oriented adjustments.
+            </summary>
+        </member>
+        <member name="M:MPT.String.Database.DatabaseExtensions.ToMySqlValue(System.String)">
+            <summary>
+            Adjusts value to only contain valid characters for MySQl.
+            For example, single quotes are doubled.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Database.DatabaseExtensions.FromMySqlValue(System.String)">
+            <summary>
+            Adjusts value to remove adjustments for invalid characters to be made valid for MySQL.
+            For example, double single quotes '' are returned back to single quotes '.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Database.DatabaseExtensions.ToMySqlTableOrHeaderName(System.String)">
+            <summary>
+            Adjusts table or header name to be compatible for MySQL, such as using ` `.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Database.DatabaseExtensions.FromMySqlTableOrHeaderName(System.String)">
+            <summary>
+            Adjusts table or header name to remove elements added to ensure compatibility for MySQL, such as using ` `.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Database.DatabaseExtensions.ToSqlTableName(System.String)">
+            <summary>
+            Adjusts table name to be compatible with an SQL-based database system, such as using [ ].
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Database.DatabaseExtensions.FromSqlTableName(System.String)">
+            <summary>
+            Adjusts table name to remove elements compatible with an SQL-based database system, such as using [ ].
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="T:MPT.String.Characters.eCapitalization">
+            <summary>
+            Enumeration of how to return the capitalization pattern of a string.
+            </summary>
+        </member>
+        <member name="F:MPT.String.Characters.eCapitalization.ALLCAPS">
+            <summary>
+            Every character is capitalized.
+            </summary>
+        </member>
+        <member name="F:MPT.String.Characters.eCapitalization.alllower">
+            <summary>
+            Every character is lower-case.
+            </summary>
+        </member>
+        <member name="F:MPT.String.Characters.eCapitalization.Firstupper">
+            <summary>
+            The first character of the first word is capitalized, with all other characters as lower-case.
+            </summary>
+        </member>
+        <member name="T:MPT.String.Characters.CharacterExtensions">
+            <summary>
+            Extension methods to strings and classes relating to strings manipulating characters.
+            </summary>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.ToLowerFirst(System.String)">
+            <summary>
+            Changes the first character in the string to being lower case.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.ToUpperFirst(System.String)">
+            <summary>
+            Changes the first character in the string to being upper case.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.Merge(System.String[],System.String)">
+            <summary>
+            Merges the specified array separated by the specified demarcator.
+            </summary>
+            <param name="values">The values.</param>
+            <param name="demarcator">The demarcator to separate the joined entries by.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.Split(System.String,System.String)">
+            <summary>
+            Splits the specified string by the specified string demarcator.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="demarcator">The string demarcator that splits the string.</param>
+            <returns>System.String[].</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.Capitalize(System.String,MPT.String.Characters.eCapitalization)">
+            <summary>
+            Converts a string to the specified capitalization pattern.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="pattern">The pattern to capitalize by.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.JoinPrePost(System.String,System.String,System.String)">
+            <summary>
+            Joins the specified characters before and after the value.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="pre">The character to prepend to the beginning.</param>
+            <param name="post">The character to append to the end.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.TrimPrePost(System.String,System.String,System.String)">
+            <summary>
+            Trim the specified characters before and after the value.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="pre">The character to trim at the beginning.</param>
+            <param name="post">The character to trim at the end.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.ToSingular(System.String)">
+            <summary>
+            Generically sets the word to its likely singular equivalent.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.ToPlural(System.String)">
+            <summary>
+            Generically sets the word to its likely plural equivalent.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.ToPlural(System.String,System.Int32)">
+            <summary>
+            Makes a string singular or plural based on the number provided, which will be prepended. e.g. 2 items, 1 item, etc.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="number">The number.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.ToPlural(System.String,System.Double,System.Double)">
+            <summary>
+            Makes a string singular or plural based on the number provided, which will be prepended. e.g. 2 items, 1 item, etc.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="number">The number.</param>
+            <param name="tolerance">The tolerance by which a number is considered to be treated as '1'.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.ToPlural(System.String,System.Decimal)">
+            <summary>
+            Makes a string singular or plural based on the number provided, which will be prepended. e.g. 2 items, 1 item, etc.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="number">The number.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.ToPossessive(System.String)">
+            <summary>
+            Generically sets the word to its likely possessive equivalent.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.Characters.CharacterExtensions.FromPossessive(System.String)">
+            <summary>
+            Generically sets the word from its likely possessive form to a non-possessive equivalent.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="T:MPT.String.Number.NumberExtensions">
+            <summary>
+            Extension methods to strings and classes relating to strings and numbers.
+            </summary>
+        </member>
+        <member name="M:MPT.String.Number.NumberExtensions.ToInt(System.String,System.Int32)">
+            <summary>
+            Converts the string representation of a number to an integer.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="forNot">Value returned if the conversion fails.</param>
+            <returns>System.Int32.</returns>
+        </member>
+        <member name="M:MPT.String.Number.NumberExtensions.ToDouble(System.String,System.Double)">
+            <summary>
+            To the double.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="forNot">Value returned if the conversion fails.</param>
+            <returns>System.Double.</returns>
+        </member>
+        <member name="M:MPT.String.Number.NumberExtensions.ToDecimal(System.String,System.Decimal)">
+            <summary>
+            To the decimal.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="forNot">Value returned if the conversion fails.</param>
+            <returns>System.Decimal.</returns>
+        </member>
+        <member name="T:MPT.String.StringLibrary">
+            <summary>
+            Contains functions for determining and manipulating strings.
+            </summary>
+        </member>
+        <member name="M:MPT.String.StringLibrary.StringsMatch(System.String,System.String,System.Boolean)">
+            <summary>
+            Determines if two strings are the same, accounting for capitalization.
+            </summary>
+            <param name="string1">First string to compare.</param>
+            <param name="string2">Second string to compare.</param>
+            <param name="caseSensitive">True: Differences in capitalization will void a potential match. False: Match is made disregarding capitalization.</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:MPT.String.StringLibrary.StringExistInName(System.String,System.String,System.Boolean)">
+            <summary>
+            Searches a string and determines if a substring exists.
+            </summary>
+            <param name="stringSearched">String to be searched.</param>
+            <param name="stringToSearchFor">Substring segment to search for.</param>
+            <param name="caseSensitive">True: Differences in capitalization will void a potential match. 
+            False: Match is made disregarding capitalization.</param>
+            <returns>True: Substring found within string</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:MPT.String.StringLibrary.StringFoundAtIndex(System.String,System.Int32,System.String,System.Boolean)">
+            <summary>
+            Returns True if the string searched for exists within the original text starting at the specified index.
+            </summary>
+            <param name="stringSearchedFor">The string to search for.</param>
+            <param name="index">The 1-based index where the string is to start from.</param>
+            <param name="originalText">The original string to search from.</param>
+            <param name="caseSensitive">True: Differences in capitalization will void a potential match. 
+            False: A match is made disregarding capitalization.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.IsNameMatching(System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Checks for name/string matching based on full name, or partial (if specified).
+            Can also be based on capitalization.
+            Works on strings of any length, with spaces.
+            </summary>
+            <param name="nameSource">Source name to be checked against.</param>
+            <param name="nameCheck">Name to be checked.</param>
+            <param name="partialNameMatch">True: Considered a match as long as the source name contains the checked name, even if the names don match in their entirety.</param>
+            <param name="caseSensitive">True: Differences in capitalization will void a potential match. 
+            False: Match is made disregarding capitalization.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.HasAllWhiteSpace(System.String)">
+            <summary>
+            Returns true if the text provided contains all white space.
+            This does not include null or empty string.
+            </summary>
+            <param name="text">String to check.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.GetSuffix(System.String,System.String)">
+            <summary>
+            Gets the last part of a string after the last occurrence of a designated string. 
+            Returns name if the character is not found.
+            </summary>
+            <param name="name">String to be truncated. 
+            Can be a single word or a sentence.</param>
+            <param name="character">Character to search for. 
+            Function returns what remains of string after the last occurrence of this character.</param>
+            <returns></returns>
+            <remarks>TODO: Add ability to specify number of occurrences of character</remarks>
+        </member>
+        <member name="M:MPT.String.StringLibrary.GetPrefix(System.String,System.String)">
+            <summary>
+            Gets the first part of a string before the first occurrence of a designated character.
+            Returns name if the character is not found.
+            </summary>
+            <param name="name">String to be truncated. 
+            Can be a single word or a sentence.</param>
+            <param name="character">Character to search for. 
+            Function returns what remains of string before the first occurence of this character.</param>
+            <returns></returns>
+            <remarks>TODO: Add ability to specify number of occurrences of character</remarks>
+        </member>
+        <member name="M:MPT.String.StringLibrary.FilterFromText(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Finds the first occurrence of a given substring within a string and returns the prefix and/or suffix of the remaining string. 
+            If the substring is not found, the original string is returned.
+            </summary>
+            <param name="originalText">String to be filtered.</param>
+            <param name="filterText">String to filter out.</param>
+            <param name="retainPrefix">True: Retain the portion of the string before the filter string.</param>
+            <param name="retainSuffix">True: Retain the portion of the string after the filter string.</param>
+            <param name="filterEndOfName">True: A match is only valid if the filtered string comprises the end of the string. 
+            One use is to filter the last directory in a path while avoiding false positives higher up the path hierarchy.</param>
+            <param name="caseSensitive">True: Differences in capitalization will void a potential match. 
+            False: A match is made disregarding capitalization.</param>
+            <returns></returns>
+            <remarks>TODO: Refactor into  different functions, simpler execution. Add ability to specify number of occurrences of filter.</remarks>
+        </member>
+        <member name="M:MPT.String.StringLibrary.ReplaceInText(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Replaces a substring in a string. Returns the new string.
+            </summary>
+            <param name="originalText">String to be searched</param>
+            <param name="oldSubString">Substring segment to search for and be replaced</param>
+            <param name="newSubString">Substring segment to replace</param>
+            <param name="suppressWarnings">True: No warning is given if the old substring is not found in the old string.</param>
+            <param name="canReplaceAll">True: If the old substring equals the old string, the entire string is replaced.</param>
+            <param name="caseSensitive">True: Differences in capitalization will void a potential match. 
+            False: A match is made disregarding capitalization.</param>
+            <returns>Returns the new string.</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:MPT.String.StringLibrary.LeftOfIndex(System.String,System.Int32)">
+            <summary>
+            Returns the string left of the specified letter index (1-based).
+            </summary>
+            <param name="text">Text to use.</param>
+            <param name="characterIndex">Index of character to return to the left of.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.RightOfIndex(System.String,System.Int32)">
+            <summary>
+            Returns the string right of the specified letter index (1-based).
+            </summary>
+            <param name="text">Text to use.</param>
+            <param name="characterIndex">Index of character to return to the right of.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.FilterToNumeric(System.String,System.Boolean)">
+            <summary>
+            Returns only the portions of the string that are numeric. 
+            All non-numeric characters are filtered out.
+            </summary>
+            <param name="stringToFilter">String to filter.</param>
+            <param name="keepSpaces">True: Spaces between numeric characters are preserved.</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:MPT.String.StringLibrary.ReplaceFirst(System.String,System.String,System.String)">
+            <summary>
+            Replaces the first instance of the string being searched for.
+            </summary>
+            <param name="text">Text to search within.</param>
+            <param name="textSearch">String to search for.</param>
+            <param name="textReplace">String to replace the searched string with.</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:MPT.String.StringLibrary.ConcatenateListToMessage(System.Collections.Generic.List{System.String},System.String,System.Boolean,System.String)">
+            <summary>
+            Takes a list and concatenates it into a single string message with specified joiners.
+            </summary>
+            <param name="strings">List of items to concatenate.</param>
+            <param name="joiner">Joining word to use if there is more than one entry, such as 'and' or 'or'.</param>
+            <param name="alwaysUseJoiner">True: Joiner is used in a list of two. Else, the joiner is not used in a list of two.</param>
+            <param name="prefix">This is appended to the beginning of each list item. Example "Mr." or "*.".</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:MPT.String.StringLibrary.SplitMessageToList(System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Takes a message of a list and splits it into a list of items.
+            </summary>
+            <param name="message">Message of a list of items to split apart.</param>
+            <param name="joiner">Joining word to use if there is more than one entry, such as 'and' or 'or'.</param>
+            <param name="alwaysUseJoiner">True: Joiner is used in a list of two. Else, the joiner is not used in a list of two.</param>
+            <param name="prefix">This is appended to the beginning of each list item. Example "Mr." or "*.".</param>
+            <returns></returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.FilterListFromList(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Removes all matching entries from the core list that exist in the filter list.
+            Returns what remains.
+            </summary>
+            <param name="listCore">Core list to filter items out of.</param>
+            <param name="listFilter">List of items to remve from the core list, if present.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.TrimCharacterFromEnds(System.String,System.Char,System.Boolean,System.Boolean)">
+            <summary>
+            Trims specified character from either or both ends of a string.
+            </summary>
+            <param name="stringTrim">String to trim.</param>
+            <param name="character">Character to trim from the string ends.</param>
+            <param name="trimLeft">False: Left side of the string will not have any existing characters trimmed.</param>
+            <param name="trimRight">False: Right side of the string will not have any existing characters trimmed.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.AddCharacterToEnds(System.String,System.Char,System.Boolean,System.Boolean)">
+            <summary>
+            Adds specified character to either or both ends of a string.
+            </summary>
+            <param name="stringAdd">String to add to.</param>
+            <param name="character">Character to add to the string ends.</param>
+            <param name="addLeft">False: Left side of the string will not have any existing characters added.</param>
+            <param name="addRight">False: Right side of the string will not have any existing characters added.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.RemoveWord(System.String,System.String)">
+            <summary>
+            Removes the specified word.
+            </summary>
+            <param name="word">The word.</param>
+            <param name="wordToRemove">The word to remove.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.ReplaceWithConstant(System.String,System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            Normalizes irregular terms such that if it is a common variation, it is set to the specified base word.
+            </summary>
+            <param name="word">The word.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.ReplaceUsingMap(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Map multiple word replacements to apply in a dictionary.
+            </summary>
+            <param name="word">The word.</param>
+            <param name="wordMap">The word map in the form of {oldWord, newWord}.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.RaiseMessengerStringNotFound(System.String,System.String)">
+            <summary>
+            Raises a messenger event with a warning that the string searched for was not found in the original text.
+            </summary>
+            <param name="stringSearchedFor"></param>
+            <param name="originalText"></param>
+        </member>
+        <member name="M:MPT.String.StringLibrary.GetCharacter(System.String)">
+            <summary>
+            Returns a single string character. 
+            If the string has more than one character, only the first one is returned.
+            </summary>
+            <param name="character">Character to potentially trim.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.PrependSign(System.String,System.String,System.Int32)">
+            <summary>
+            Adds a sign to the beginning of the target string if one exists at the prior character in the string checked.
+            </summary>
+            <param name="targetString">String to add the character to, if applicable.</param>
+            <param name="stringToCheck">String to check for the presence of the character.</param>
+            <param name="currentIndex">Index associated with the target string in the string to check.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MPT.String.StringLibrary.AppendDecimal(System.String,System.String,System.Int32)">
+            <summary>
+            Adds a decimal to the end of the target string if one exists at the next character in the string checked.
+            </summary>
+            <param name="targetString">String to add the character to, if applicable.</param>
+            <param name="stringToCheck">String to check for the presence of the character.</param>
+            <param name="currentIndex">Index associated with the target string in the string to check.</param>
+            <returns></returns>
+        </member>
+        <member name="T:MPT.String.XML.XmlExtensions">
+            <summary>
+            Extension methods to strings and classes relating to strings and XML files.
+            </summary>
+        </member>
+        <member name="M:MPT.String.XML.XmlExtensions.ToXmlValue(System.String)">
+            <summary>
+            Parses text to automatically substitute reserved XML characters.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.XML.XmlExtensions.FromXmlValue(System.String)">
+            <summary>
+            Parses text to automatically undo substitutes for reserved XML characters.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.XML.XmlExtensions.ToTagSafe(System.String,System.Boolean)">
+            <summary>
+            Adjusts the value to be in an appropriate form for tag names.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="underscoresForSpaces">True: Underscores will be inserted where any spaces exist. 
+            Otherwise, separate words will be merged.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.String.XML.XmlExtensions.StripAttributes(System.String)">
+            <summary>
+            Strips the attributes from XML element names, but preserves spaces.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>System.String.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,2 @@
+C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\New folder\DB-Location-XReferencer\bin\Debug\DB-Location-XReferencer.exe.config
+C:\Users\Mark\Documents\GitHub\CSharp\Sierra-Guidebook\DB-Location-XReferencer\bin\Debug\DB-Location-XReferencer.exe.config

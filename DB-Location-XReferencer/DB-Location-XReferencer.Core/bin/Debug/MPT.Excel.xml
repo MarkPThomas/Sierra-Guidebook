@@ -1,0 +1,570 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MPT.Excel</name>
+    </assembly>
+    <members>
+        <member name="T:MPT.Excel.ExcelHelper">
+            <summary>
+            Class ExcelHelper.
+            </summary>
+            <seealso cref="T:System.IDisposable" />
+        </member>
+        <member name="F:MPT.Excel.ExcelHelper.PROCESS_NAME">
+            <summary>
+            The process name.
+            </summary>
+        </member>
+        <member name="F:MPT.Excel.ExcelHelper._xlApp">
+            <summary>
+            The Excel application.
+            </summary>
+        </member>
+        <member name="F:MPT.Excel.ExcelHelper._xlWorkbook">
+            <summary>
+            The current Excel workbook.
+            </summary>
+        </member>
+        <member name="F:MPT.Excel.ExcelHelper._xlWorksheet">
+            <summary>
+            The current Excel worksheet.
+            </summary>
+        </member>
+        <member name="F:MPT.Excel.ExcelHelper._xlRange">
+            <summary>
+            The current Excel range.
+            </summary>
+        </member>
+        <member name="F:MPT.Excel.ExcelHelper._attachedToProcess">
+            <summary>
+            True: The Excel object is attached to an existing process.
+            </summary>
+        </member>
+        <member name="F:MPT.Excel.ExcelHelper._totalShutdown">
+            <summary>
+            True: When the Excel object is closed, close the file/application as well.
+            </summary>
+        </member>
+        <member name="P:MPT.Excel.ExcelHelper.Path">
+            <summary>
+            The path to the Excel file.
+            </summary>
+            <value>The path.</value>
+        </member>
+        <member name="P:MPT.Excel.ExcelHelper.Worksheets">
+            <summary>
+            The worksheets in the Excel file.
+            </summary>
+            <value>The worksheets.</value>
+        </member>
+        <member name="P:MPT.Excel.ExcelHelper.Ranges">
+            <summary>
+            The ranges in the Excel file.
+            </summary>
+            <value>The ranges.</value>
+        </member>
+        <member name="P:MPT.Excel.ExcelHelper.Names">
+            <summary>
+            The named ranges in the Excel file.
+            </summary>
+            <value>The names.</value>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MPT.Excel.ExcelHelper" /> class.
+            </summary>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MPT.Excel.ExcelHelper"/> class. <para/> 
+            If a process already exists from a file started at the file path, this process is attached to. <para/>
+            Otherwise, a new process is started from the file.
+            </summary>
+            <param name="path">The file path.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.Load(System.String)">
+            <summary>
+            Loads the Excel file at the specified path.
+            </summary>
+            <param name="path">The path to the file.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.AttachToProcess(System.String)">
+            <summary>
+            Attaches to the process started using the file of the provided name.
+            </summary>
+            <param name="fileName">Name of the file.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.Initialize(System.Boolean)">
+            <summary>
+            Initializes the specified open workbook.
+            </summary>
+            <param name="openWorkbook">if set to <c>true</c> [open workbook].</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.RangeValues1D(System.String,System.Boolean,System.String)">
+            <summary>
+            The values within a 1-dimensional range (a single column or single row).
+            </summary>
+            <param name="rangeName">Name of the range.</param>
+            <param name="includeNull">If set to <c>true</c>, includes empty entries.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+            <returns>List&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.RangeValuesBelowHeaderAndCorrespondingColumns(System.String,System.String[])">
+            <summary>
+            Returns the cell values within rows beneath the header range name, or within the range column names.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="rangeNames">The range names.</param>
+            <returns>List&lt;List&lt;System.String&gt;&gt;.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.RangeValuesBelowHeaderAndCorrespondingColumns(System.String,System.Boolean,System.Int32,System.String,System.String[])">
+            <summary>
+            Returns the cell values within rows beneath the header range name, or within the range column names.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="includeNull">If set to <c>true</c>, includes empty entries.</param>
+            <param name="numberOfRows">Maximum number of rows to read. 
+            If this is not set, then reading will stop at the first empty cell.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+            <param name="rangeNames">The range names.</param>
+            <returns>List&lt;List&lt;System.String&gt;&gt;.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.RangeValuesBesideHeaderAndCorrespondingRows(System.String,System.String[])">
+            <summary>
+            Returns the cell values within columns beside the header range name, or within the range column names.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="rangeNames">The range names.</param>
+            <returns>List&lt;List&lt;System.String&gt;&gt;.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.RangeValuesBesideHeaderAndCorrespondingRows(System.String,System.Boolean,System.Int32,System.String,System.String[])">
+            <summary>
+            Returns the cell values within columns beside the header range name, or within the range column names.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="includeNull">If set to <c>true</c>, includes empty entries.</param>
+            <param name="numberOfColumns">Maximum number of columns to read. 
+            If this is not set, then reading will stop at the first empty cell.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+            <param name="rangeNames">The range names.</param>
+            <returns>List&lt;List&lt;System.String&gt;&gt;.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.CorrespondingColumnValues(System.Int32,System.String[],System.String)">
+            <summary>
+            Returns the cell values within rows in the column offset based on the header ranges specified.
+            </summary>
+            <param name="rowOffset">The row offset from the header.</param>
+            <param name="rangeNames">The range names of the columns offset from the header.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+            <returns>System.String[].</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.CorrespondingRowValues(System.Int32,System.String[],System.String)">
+            <summary>
+            Returns the cell values within columns in the row offset based on the header ranges specified.
+            </summary>
+            <param name="columnOffset">The column offset from the header.</param>
+            <param name="rangeNames">The range names of the rows offset from the header.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+            <returns>System.String[].</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.RangeValuesBelowHeader(System.String,System.Boolean,System.Int32,System.String)">
+            <summary>
+            Returns the cell values within rows beneath the header range.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="includeNull">If set to <c>true</c>, includes empty entries.</param>
+            <param name="numberOfRows">Maximum number of rows to read. 
+            If this is not set, then reading will stop at the first empty cell.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+            <returns>List&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.RangeValuesBesideHeader(System.String,System.Boolean,System.Int32,System.String)">
+            <summary>
+            Returns the cell values within columns beside the header range.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="includeNull">If set to <c>true</c>, includes empty entries.</param>
+            <param name="numberOfColumns">Maximum number of columns to read. 
+            If this is not set, then reading will stop at the first empty cell.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+            <returns>List&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.ExistOnSameRow(System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
+            <summary>
+            True: The value exists on the same row as the range name. <para />
+            It is assumed that the ranges refer only to single cells.
+            </summary>
+            <param name="rangeNamesvalues">The range names and their values for single cells.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.ExistOnSameColumn(System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
+            <summary>
+            True: The value exists on the same column as the range name. <para />
+            It is assumed that the ranges refer only to single cells.
+            </summary>
+            <param name="rangeNamesvalues">The range names and their values for single cells.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.GetRowOffsetLastFilled(System.String,System.String)">
+            <summary>
+            Gets the row offset of the last filled cell.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+            <returns>System.Int32.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.GetColumnOffsetLastFilled(System.String,System.String)">
+            <summary>
+            Gets the column offset of the last filled cell.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+            <returns>System.Int32.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.ClearRow(System.String,System.Int32,System.String)">
+            <summary>
+            Clears formulas, values and formatting from the row range.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="rowOffset">The row offset from the header.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.ClearRowContents(System.String,System.Int32,System.String)">
+            <summary>
+            Clears formulas and values from the row.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="rowOffset">The row offset from the header.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.ClearColumn(System.String,System.Int32,System.String)">
+            <summary>
+            Clears formulas, values and formatting from the column range.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="columnOffset">The column offset from the header.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.ClearColumnContents(System.String,System.Int32,System.String)">
+            <summary>
+            Clears formulas and values from the column.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="columnOffset">The column offset from the header.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.DuplicateRowDown(System.String,System.Int32,System.String)">
+            <summary>
+            Duplicates the row down by the specified offset.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="rowOffset">The row offset from the header.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.DuplicateColumnOver(System.String,System.Int32,System.String)">
+            <summary>
+            Duplicates the row down by the specified offset.
+            </summary>
+            <param name="headerRangeName">Name of the header range.</param>
+            <param name="columnOffset">The column offset from the header.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.WriteValues(System.Collections.Generic.Dictionary{System.String,System.String},System.Int32,System.Int32,System.String)">
+            <summary>
+            Writes the values within the provided offset from the corresponding single cell range value.
+            </summary>
+            <param name="rangeNamesvalues">Name of the single cell range and corresponding value.</param>
+            <param name="rowOffset">The row offset from the header.</param>
+            <param name="columnOffset">The column offset from the header.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.WriteValue(System.String,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            Writes the value in the cell at the specified offset.
+            </summary>
+            <param name="rangeName">Name of the single cell range.</param>
+            <param name="rangeValue">The range value.</param>
+            <param name="rowOffset">The row offset from the header.</param>
+            <param name="columnOffset">The column offset from the header.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.Save(System.String)">
+            <summary>
+            Saves the Excel file under the specified name.
+            </summary>
+            <param name="saveAsName">Name to save the file as. If this is left empty, the file is saved over itself.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.SetTab(System.String)">
+            <summary>
+            Sets Excel to activate the tab specified by name.
+            </summary>
+            <param name="tabName">Name of the tab.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.SetTotalShutdown">
+            <summary>
+            Sets the program to do a total shutdown. <para />
+            If not, then the program is released but left open.
+            </summary>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.quitAndRelease">
+            <summary>
+            Quits and release the application.
+            </summary>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.recordValue(System.String,System.Boolean)">
+            <summary>
+            Specifies if the value is to be recorded.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="includeNull">if set to <c>true</c> null or empty values will be recorded..</param>
+            <returns><c>true</c> if the value should be recorded, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.getValue(Microsoft.Office.Interop.Excel.Range,System.Int32,System.Int32)">
+            <summary>
+            Returns the range value as a string.
+            </summary>
+            <param name="xlRange">The Excel range, assumed to be a single cell.</param>
+            <param name="rowOffset">The row offset.</param>
+            <param name="columnOffset">The column offset.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.continueOffset(System.String,System.Int32,System.Int32)">
+            <summary>
+            Continues the offset loop for reading rows or columns if criteria are met.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="offset">The current offset.</param>
+            <param name="maxOffset">The maximum offset.
+            If less than one, continuation will terminate upon the first empty cell.</param>
+            <returns><c>true</c> if the offset loops should continue, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.convertToStringList(System.Array,System.Boolean)">
+            <summary>
+            Converts the array to a string list.
+            </summary>
+            <param name="values">The values.</param>
+            <param name="includeNull">if set to <c>true</c>, empty values will be included in the list.</param>
+            <returns>List&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.getWorksheetByName(System.String)">
+            <summary>
+            Gets the the worksheet specified by name.
+            </summary>
+            <param name="worksheetName">Name of the worksheet.</param>
+            <returns>Excel._Worksheet.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.getRangeByName(System.String,System.String)">
+            <summary>
+            Gets the Excel range by the provided range name.
+            </summary>
+            <param name="rangeName">Name of the range.</param>
+            <param name="worksheetName">Worksheet (by name) that contains the range name.</param>
+            <returns>Excel.Range.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelHelper.getRangeByLocalName(System.String,Microsoft.Office.Interop.Excel._Worksheet)">
+            <summary>
+            Gets the Excel range by the provided local range name.
+            </summary>
+            <param name="rangeName">Name of the range.</param>
+            <param name="worksheet">Worksheet that contains the range name.</param>
+            <returns>Excel.Range.</returns>
+        </member>
+        <member name="T:MPT.Excel.ExcelInteropService">
+            <summary>
+            Used to start a new Excel process or attach to an existing one.
+            </summary>
+        </member>
+        <member name="F:MPT.Excel.ExcelInteropService.EXCEL_CLASS_NAME">
+            <summary>
+            The excel class name.
+            </summary>
+        </member>
+        <member name="F:MPT.Excel.ExcelInteropService.DW_OBJECTID">
+            <summary>
+            The dw objectid.
+            </summary>
+        </member>
+        <member name="F:MPT.Excel.ExcelInteropService.rrid">
+            <summary>
+            The rrid.
+            </summary>
+        </member>
+        <member name="T:MPT.Excel.ExcelInteropService.EnumChildCallback">
+            <summary>
+            Delegate EnumChildCallback.
+            </summary>
+            <param name="hwnd">The HWND.</param>
+            <param name="lParam">The l parameter.</param>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelInteropService.AccessibleObjectFromWindow(System.Int32,System.UInt32,System.Byte[],Microsoft.Office.Interop.Excel.Window@)">
+            <summary>
+            Accessible object from window.
+            </summary>
+            <param name="hwnd">The HWND.</param>
+            <param name="dwObjectID">The dw object identifier.</param>
+            <param name="riid">The riid.</param>
+            <param name="ptr">The PTR.</param>
+            <returns>System.Int32.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelInteropService.EnumChildWindows(System.Int32,MPT.Excel.ExcelInteropService.EnumChildCallback,System.Int32@)">
+            <summary>
+            The child windows enumeration value.
+            </summary>
+            <param name="hWndParent">The h WND parent.</param>
+            <param name="lpEnumFunc">The lp enum function.</param>
+            <param name="lParam">The l parameter.</param>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelInteropService.GetClassName(System.Int32,System.Text.StringBuilder,System.Int32)">
+            <summary>
+            Gets the name of the class.
+            </summary>
+            <param name="hWnd">The h WND.</param>
+            <param name="lpClassName">Name of the lp class.</param>
+            <param name="nMaxCount">The n maximum count.</param>
+            <returns>System.Int32.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelInteropService.GetExcelInterop(System.Nullable{System.Int32})">
+            <summary>
+            Gets the excel interop by either attaching to the process or starting a new one, bsed on the process ID.
+            </summary>
+            <param name="processId">The process identifier.</param>
+            <returns>Excel.Application.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelInteropService.EnumChildFunc(System.Int32,System.Int32@)">
+            <summary>
+            The enumerable child function.
+            </summary>
+            <param name="hwndChild">The child window Id.</param>
+            <param name="lParam">The l parameter.</param>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelInteropService.SearchExcelInterop(System.Diagnostics.Process)">
+            <summary>
+            Searches for the the excel interop from the provided process.
+            </summary>
+            <param name="p">The process.</param>
+            <returns>Excel.Application.</returns>
+            <exception cref="T:System.Exception">
+            Excel Main Window Not Found
+            or
+            Excel Child Window Not Found
+            or
+            Accessible Object Not FOund
+            </exception>
+        </member>
+        <member name="T:MPT.Excel.ExcelWrapper">
+            <summary>
+            This class is used for interacting more smoothly with Excel.
+            </summary>
+        </member>
+        <member name="F:MPT.Excel.ExcelWrapper.VBA_E_IGNORE">
+            <summary>
+            The VBA_E_IGNORE error that is returned whenever an object model call is invoked while the property browser is suspended. <para /> 
+            This can occur when clicking around in Excel when the API is called.<para /> 
+            See: https://social.msdn.microsoft.com/Forums/vstudio/en-US/9168f9f2-e5bc-4535-8d7d-4e374ab8ff09/hresult-800ac472-from-set-operations-in-excel?forum=vsto
+            </summary>
+        </member>
+        <member name="F:MPT.Excel.ExcelWrapper.OBJECT_REQUIRED">
+            <summary>
+            The object required error that is sometimes returned.<para /> 
+            This can occur when closing Excel while the API is still being called.<para /> 
+            See: https://social.technet.microsoft.com/Forums/office/en-US/43041fcd-2f67-43d4-913b-5681c584ab67/keep-getting-error-message-exception-from-hresult-0x800a01a8-when-opening-spreadsheets-on?forum=officeitpro
+            </summary>
+        </member>
+        <member name="M:MPT.Excel.ExcelWrapper.AppWorkbooksOpen(Microsoft.Office.Interop.Excel.Application,System.String,System.Int32,System.Int32)">
+            <summary>
+            Opens the application workbook.
+            </summary>
+            <param name="application">The application.</param>
+            <param name="path">The path to the file to open.</param>
+            <param name="attempts">The number of attempts.</param>
+            <param name="intervalMS">The interval between attempts. [ms].</param>
+            <returns>Excel.Workbook.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelWrapper.RangeClear(Microsoft.Office.Interop.Excel.Range,System.Int32,System.Int32)">
+            <summary>
+            Clears formulas, values and formatting from the range.
+            </summary>
+            <param name="range">The Excel range.</param>
+            <param name="attempts">The number of attempts.</param>
+            <param name="intervalMS">The interval between attempts. [ms].</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelWrapper.RangeClearContents(Microsoft.Office.Interop.Excel.Range,System.Int32,System.Int32)">
+            <summary>
+            Clears formulas and values from the range.
+            </summary>
+            <param name="range">The Excel range.</param>
+            <param name="attempts">The number of attempts.</param>
+            <param name="intervalMS">The interval between attempts. [ms].</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelWrapper.RangeCopyEntireRowAttempts(Microsoft.Office.Interop.Excel.Range,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Copies the entire row specified by the range.
+            </summary>
+            <param name="range">The Excel range.</param>
+            <param name="rowCopyOffset">The row copy offset.</param>
+            <param name="attempts">The number of attempts.</param>
+            <param name="intervalMS">The interval between attempts. [ms].</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelWrapper.RangeCopyEntireColumnAttempts(Microsoft.Office.Interop.Excel.Range,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Copies the entire column specified by the range.
+            </summary>
+            <param name="range">The Excel range.</param>
+            <param name="columnCopyOffset">The column copy offset.</param>
+            <param name="attempts">The number of attempts.</param>
+            <param name="intervalMS">The interval between attempts. [ms].</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelWrapper.RangeWriteValue(Microsoft.Office.Interop.Excel.Range,System.String,System.Int32,System.Int32)">
+            <summary>
+            Writes the value to the provided range.
+            </summary>
+            <param name="range">The Excel range.</param>
+            <param name="value">The value to write.</param>
+            <param name="attempts">The number of attempts.</param>
+            <param name="intervalMS">The interval between attempts. [ms].</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelWrapper.assignValue(Microsoft.Office.Interop.Excel.Range,System.String)">
+            <summary>
+            Assigns the value.
+            </summary>
+            <param name="range">The Excel range.</param>
+            <param name="value">The value to write.</param>
+        </member>
+        <member name="M:MPT.Excel.ExcelWrapper.Try``1(System.Func{``0})">
+            <summary>
+            Tries the specified action.
+            This ignores particular exceptions that are known to occur.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="action">The action.</param>
+            <returns>T.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelWrapper.TryBool``1(System.Func{``0})">
+            <summary>
+            Tries the action and returns true if successful.
+            This ignores particular exceptions that are known to occur.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="action">The action.</param>
+            <returns><c>true</c> if succesful in the action, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:MPT.Excel.ExcelWrapper.TryBool(System.Action)">
+            <summary>
+            Tries the action and returns true if successful.
+            This ignores particular exceptions that are known to occur.
+            </summary>
+            <param name="action">The action.</param>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+    </members>
+</doc>

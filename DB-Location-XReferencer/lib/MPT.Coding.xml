@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MPT.Coding</name>
+    </assembly>
+    <members>
+        <member name="T:MPT.Coding.Retry">
+            <summary>
+            Class Retry.
+            </summary>
+        </member>
+        <member name="M:MPT.Coding.Retry.Do(System.Action,System.TimeSpan,System.Int32)">
+            <summary>
+            Does the specified action.
+            </summary>
+            <param name="action">The action.</param>
+            <param name="retryInterval">The retry interval.</param>
+            <param name="retryCount">The retry count.</param>
+        </member>
+        <member name="M:MPT.Coding.Retry.Do``1(System.Func{``0},System.TimeSpan,System.Int32)">
+            <summary>
+            Does the specified action.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="action">The action.</param>
+            <param name="retryInterval">The retry interval.</param>
+            <param name="retryCount">The retry count.</param>
+            <returns>T.</returns>
+            <exception cref="T:System.AggregateException"></exception>
+        </member>
+        <member name="M:MPT.Coding.Retry.DoTrue(System.Func{System.Boolean},System.TimeSpan,System.Int32)">
+            <summary>
+            Retries method until method returns 'true'.
+            </summary>
+            <param name="action">The action.</param>
+            <param name="retryInterval">The retry interval.</param>
+            <param name="retryCount">The retry count.</param>
+        </member>
+        <member name="M:MPT.Coding.Retry.DoFalse(System.Func{System.Boolean},System.TimeSpan,System.Int32)">
+            <summary>
+            Retries method until method returns 'false'.
+            </summary>
+            <param name="action">The action.</param>
+            <param name="retryInterval">The retry interval.</param>
+            <param name="retryCount">The retry count.</param>
+        </member>
+        <member name="M:MPT.Coding.Retry.NotNull``1(System.Func{``0},System.TimeSpan,System.Int32)">
+            <summary>
+            Retries method until method returns a value other than null.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="action">The action.</param>
+            <param name="retryInterval">The retry interval.</param>
+            <param name="retryCount">The limit on the number of retries before the method returns.</param>
+            <returns>T.</returns>
+        </member>
+    </members>
+</doc>
