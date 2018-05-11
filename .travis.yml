@@ -1,0 +1,2 @@
+language: csharp
+solution: ./DB-Location-XReferencer/DB-Location-XReferencer.sln
