@@ -1,10 +1,11 @@
+dist: trusty
+sudo: required
 language: csharp
-solution: ./DB-Location-XReferencer/DB-Location-XReferencer.sln
 mono: none
 dotnet: 2.0.0
-
-install:
- - dotnet restore
+solution: ./DB-Location-XReferencer/DB-Location-XReferencer.sln
 
 script:
+ - cd DB-Location-XReferencer
+ - dotnet restore
  - dotnet build
