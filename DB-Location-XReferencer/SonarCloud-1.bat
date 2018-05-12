@@ -1,0 +1,1 @@
+SonarScanner.MSBuild.exe begin /k:"Sierra-Guidebook-DB-Location-XReferencer" /n:"Sierra-Guidebook-DB-Location-XReferencer" /v:"1.0" /o:"markpthomas-github" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="751c7e83861178a7af7cb29f1443f48f076ac5d0" /d:sonar.cs.opencover.reportsPaths="%CD%\opencover.xml"

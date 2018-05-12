@@ -1,0 +1,486 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "1.3.1.0",
+        "fileVersion": "1.3.1.60616",
+        "semanticVersion": "1.3.1",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/FormationMatcher.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 12,
+                  "endLine": 88,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/FormationMatcher.cs",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 12,
+                  "endLine": 146,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/FormationMatcher.cs",
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 12,
+                  "endLine": 155,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/Excel.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 12,
+                  "endLine": 72,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/Kml.cs",
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 13,
+                  "endLine": 239,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/Kml.cs",
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13,
+                  "endLine": 255,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/Merger.cs",
+                "region": {
+                  "startLine": 288,
+                  "startColumn": 9,
+                  "endLine": 288,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/Merger.cs",
+                "region": {
+                  "startLine": 237,
+                  "startColumn": 12,
+                  "endLine": 237,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1168",
+          "level": "warning",
+          "message": "Return an empty collection instead of null.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/Kml.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 17,
+                  "endLine": 66,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1940",
+          "level": "warning",
+          "message": "Use the opposite operator ('>') instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/Merger.cs",
+                "region": {
+                  "startLine": 269,
+                  "startColumn": 26,
+                  "endLine": 269,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1940",
+          "level": "warning",
+          "message": "Use the opposite operator ('>') instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/Merger.cs",
+                "region": {
+                  "startLine": 269,
+                  "startColumn": 58,
+                  "endLine": 269,
+                  "endColumn": 86
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1940",
+          "level": "warning",
+          "message": "Use the opposite operator ('>') instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/Merger.cs",
+                "region": {
+                  "startLine": 270,
+                  "startColumn": 26,
+                  "endLine": 270,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1940",
+          "level": "warning",
+          "message": "Use the opposite operator ('>') instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/Merger.cs",
+                "region": {
+                  "startLine": 270,
+                  "startColumn": 56,
+                  "endLine": 270,
+                  "endColumn": 82
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2681",
+          "level": "warning",
+          "message": "This line will not be executed conditionally; only the first line of this 4-line block will be. The rest will execute unconditionally.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/FormationMatcher.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 13,
+                  "endLine": 110,
+                  "endColumn": 110
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/FormationMatcher.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 13,
+                  "endLine": 107,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.IndexOutOfRangeException' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/FormationMatcher.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 60,
+                  "endLine": 142,
+                  "endColumn": 97
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1110",
+          "level": "warning",
+          "message": "Remove these redundant parentheses.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/Region.cs",
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 20,
+                  "endLine": 246,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Mark/Documents/GitHub/CSharp/Sierra-Guidebook/DB-Location-XReferencer/DB-Location-XReferencer.Core/Region.cs",
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 110,
+                  "endLine": 246,
+                  "endColumn": 111
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S1110": {
+          "id": "S1110",
+          "shortDescription": "Redundant pairs of parentheses should be removed",
+          "fullDescription": "The use of parentheses, even those not required to enforce a desired order of operations, can clarify the intent behind a piece of code. But redundant pairs of parentheses could be misleading, and should be removed. ",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1110",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "SonarWay",
+              "C#"
+            ]
+          }
+        },
+        "S112": {
+          "id": "S112",
+          "shortDescription": "General exceptions should never be thrown",
+          "fullDescription": "Throwing such general exceptions as Exception, SystemException, ApplicationException, IndexOutOfRangeException, NullReferenceException, OutOfMemoryException and ExecutionEngineException prevents calling methods from handling true, system-generated exceptions differently than application-generated errors. ",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-112",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "SonarWay",
+              "C#"
+            ]
+          }
+        },
+        "S1135": {
+          "id": "S1135",
+          "shortDescription": "Track uses of \"TODO\" tags",
+          "fullDescription": "TODO tags are commonly used to mark places where some more code is required, but which the developer wants to implement later.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1135",
+          "properties": {
+            "category": "Info Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "SonarWay",
+              "C#"
+            ]
+          }
+        },
+        "S1168": {
+          "id": "S1168",
+          "shortDescription": "Empty arrays and collections should be returned instead of null",
+          "fullDescription": "Returning null instead of an actual array or collection forces callers of the method to explicitly test for nullity, making them more complex and less readable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1168",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "SonarWay",
+              "C#"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be \"commented out\"",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "SonarWay",
+              "C#"
+            ]
+          }
+        },
+        "S1940": {
+          "id": "S1940",
+          "shortDescription": "Boolean checks should not be inverted",
+          "fullDescription": "It is needlessly complex to invert the result of a boolean comparison. The opposite comparison should be made instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1940",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "SonarWay",
+              "C#"
+            ]
+          }
+        },
+        "S2681": {
+          "id": "S2681",
+          "shortDescription": "Multiline blocks should be enclosed in curly braces",
+          "fullDescription": "Curly braces can be omitted from a one-line block, such as with an if statement or for loop, but doing so can be misleading and induce bugs. ",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2681",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "SonarWay",
+              "C#"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
