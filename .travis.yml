@@ -15,6 +15,6 @@ install:
 script:
 # Note: Can remove all below if not running unit tests
   - msbuild /p:Configuration=Release DB-Location-XReferencer.sln
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./DB-Location-XReferences.Tests/bin/Debug/DB-Location-XReferences.Tests.dll
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./DB-Location-XReferences.Tests/bin/Debug/DB_Location_XReferences.Tests.dll
  
 # https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build?tabs=netcore1x
