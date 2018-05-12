@@ -12,9 +12,20 @@
 # version format
 version: 1.0.{build}
 
+# Do not build on tags (GitHub and BitBucket)
 skip_tags: true
 
+#---------------------------------#
+#    environment configuration    #
+#---------------------------------#
+
+# Build worker image (VM template)
 image: Visual Studio 2015
+
+# environment variables
+environment:
+  COVERALLS_REPO_TOKEN:
+    secure: AftoKDQ4EreVjaFeRW/l/qo3Nza59mPmvcDnWQwPCIx5R8m0X1nAH/Imye4Nteq/
 
 #---------------------------------#
 #       build configuration       #
@@ -44,7 +55,8 @@ build:
   #verbosity: quiet|minimal|normal|detailed
   
 # scripts to run before build
-#before_build:
+before_build:
+  - nuget restore
 
 # scripts to run *after* solution is built and *before* automatic packaging occurs (web apps, NuGet packages, Azure Cloud Services)
 #before_package:
@@ -99,7 +111,8 @@ test:
 #  - ps: Write-Host "script1"
 
 # scripts to run after tests
-#after_test:
+after_test:
+  - cmd: .after_test.cmd
 
 # to run your custom scripts instead of automatic tests
 #test_script:
