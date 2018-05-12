@@ -53,5 +53,7 @@ _NCrunch*
 
 # Other directories & files
 .axoCover
+results.xml
+TestResult.xml
 .sonarqube
 SonarCloud.bat
