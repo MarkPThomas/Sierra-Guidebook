@@ -1,7 +1,7 @@
 dist: trusty
 sudo: required
 language: csharp
-solution: ./DB-Location-XReferencer/DB-Location-XReferencer.sln
+solution: DB-Location-XReferencer.sln
 
 #script:
 # - cd DB-Location-XReferencer
