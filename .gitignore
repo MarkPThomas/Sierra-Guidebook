@@ -52,5 +52,6 @@ _NCrunch*
 *.ncrunch*
 
 # Other directories & files
+.axoCover
 .sonarqube
 SonarCloud.bat
