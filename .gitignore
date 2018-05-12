@@ -46,6 +46,11 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Visual Studio-Related
+.vs
+_NCrunch*
+*.ncrunch*
+
 # Other directories & files
 .sonarqube
 SonarCloud.bat
