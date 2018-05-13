@@ -26,6 +26,8 @@ image: Visual Studio 2015
 environment:
   COVERALLS_REPO_TOKEN:
     secure: AftoKDQ4EreVjaFeRW/l/qo3Nza59mPmvcDnWQwPCIx5R8m0X1nAH/Imye4Nteq/
+  SONARQUBE:
+    secure: 20SN5KTeMrw/ROlDr08KTCYaEkdvxDbMxzihANB+sqa7nEj6vxGNM27ecL0BzHDU
 
 #---------------------------------#
 #       build configuration       #
@@ -65,7 +67,12 @@ before_build:
 #after_build:
 
 # to run your custom scripts instead of automatic MSBuild
-#build_script:
+build_script:
+  - choco install "msbuild-sonarqube-runner" -y
+  - cmd: ./DB-Location-XReferencer/.build_script.cmd
+  - SonarScanner.MSBuild.exe begin /k:"Sierra-Guidebook-DB-Location-XReferencer" /n:"Sierra-Guidebook-DB-Location-XReferencer" /v:"1.0" /o:"markpthomas-github" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="751c7e83861178a7af7cb29f1443f48f076ac5d0" /d:sonar.cs.opencover.reportsPaths=".\results.xml"
+  - msbuild DB-Location-XReferencer.sln /t:Rebuild
+  - SonarScanner.MSBuild.exe end /d:"sonar.login=751c7e83861178a7af7cb29f1443f48f076ac5d0"
 
 # to disable automatic builds
 #build: off
@@ -110,13 +117,15 @@ test:
 #  - echo script1
 #  - ps: Write-Host "script1"
 
+# to run your custom scripts instead of automatic tests
+#test_script:
+#  - dotnet test test/Qwack.Core.Tests/Qwack.Core.Tests.csproj
+
 # scripts to run after tests
 after_test:
   - cmd: ./DB-Location-XReferencer/.after_test.cmd
-
-# to run your custom scripts instead of automatic tests
-#test_script:
-#  - echo This is my custom test script
+  #- ps: iex ((Get-ChildItem ($env:USERPROFILE + '\.nuget\packages\OpenCover'))[0].FullName + '\tools\OpenCover.Console.exe' + ' -register:user -target:".\script\runtests.bat" -searchdirs:".\test\Qwack.Math.Tests\bin\Debug\netcoreapp1.1;.\test\Qwack.Dates.Tests\bin\Debug\netcoreapp1.1;.\test\Qwack.Core.Tests\bin\Debug\netcoreapp1.1" -oldstyle -output:coverage.xml -skipautoprops -returntargetcode -filter:"+[Qwack*]* -[*Tests]* -[*Benchmark]*"')
+  #- ps: iex ((Get-ChildItem ($env:USERPROFILE + '\.nuget\packages\coveralls.io'))[0].FullName + '\tools\coveralls.net.exe' + ' --opencover coverage.xml')
 
 # to disable automatic tests
 #test: off
