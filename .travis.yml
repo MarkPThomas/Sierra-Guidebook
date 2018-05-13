@@ -12,4 +12,4 @@ install:
   
 script:
   - msbuild /p:Configuration=Debug DB-Location-XReferencer.sln
-   - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./DB-Location-XReferences.Tests/bin/Debug/DB_Location_XReferences.Tests.dll
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./DB-Location-XReferences.Tests/bin/Debug/DB_Location_XReferences.Tests.dll
