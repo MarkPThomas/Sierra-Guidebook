@@ -1,20 +1,24 @@
 dist: trusty
 sudo: required
+   
 language: csharp
 solution: DB-Location-XReferencer.sln
-
-#script:
-# - cd DB-Location-XReferencer
-# - dotnet restore
-# - dotnet build -f net452
+ 
+addons:
+  sonarcloud:
+    organization: Sierra-Guidebook-DB-Location-XReferencer # the key of the org you chose at step #3
+    token:
+      secure: SONAR_TOKEN # encrypted value of your token
  
 install:
   - cd DB-Location-XReferencer
   - nuget restore DB-Location-XReferencer.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+  - nuget install OpenCover -Version 4.6.519 -OutputDirectory testrunner
+  
 script:
 # Note: Can remove all below if not running unit tests
-  - msbuild /p:Configuration=Release DB-Location-XReferencer.sln
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./DB-Location-XReferences.Tests/bin/Debug/DB_Location_XReferences.Tests.dll
- 
-# https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build?tabs=netcore1x
+  - msbuild /p:Configuration=Debug DB-Location-XReferencer.sln
+  - mono ./testrunner/OpenCover.4.6.519/tools/OpenCover.Console.exe -target:"./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe" -targetargs:"/nologo /noshadow ./DB-Location-XReferences.Tests/bin/Debug/DB_Location_XReferences.Tests.dll" -filter:"+[*]* -[*.Tests]*" -output:"./reports/opencover.xml" -register:user
+  # - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./DB-Location-XReferences.Tests/bin/Debug/DB_Location_XReferences.Tests.dll
+  - sonar-scanner
