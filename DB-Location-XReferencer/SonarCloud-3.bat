@@ -1,1 +1,0 @@
-SonarScanner.MSBuild.exe end /d:sonar.login="751c7e83861178a7af7cb29f1443f48f076ac5d0"

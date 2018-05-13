@@ -4,12 +4,6 @@ sudo: required
 language: csharp
 solution: DB-Location-XReferencer.sln
  
-addons:
-#  sonarcloud:
-#    organization: markpthomas-github # the key of the org you chose at step #3
-#    token:
-#      secure: SONAR_TOKEN # encrypted value of your token
- 
 install:
   - cd DB-Location-XReferencer
   - nuget restore DB-Location-XReferencer.sln
@@ -18,6 +12,4 @@ install:
   
 script:
   - msbuild /p:Configuration=Debug DB-Location-XReferencer.sln
-#  - mono ./testrunner/OpenCover.4.6.519/tools/OpenCover.Console.exe -target:"./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe" -targetargs:"/nologo /noshadow ./DB-Location-XReferences.Tests/bin/Debug/DB_Location_XReferences.Tests.dll" -filter:"+[*]* -[*.Tests]*" -output:"./reports/opencover.xml" -register:user
    - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./DB-Location-XReferences.Tests/bin/Debug/DB_Location_XReferences.Tests.dll
-#  - sonar-scanner
