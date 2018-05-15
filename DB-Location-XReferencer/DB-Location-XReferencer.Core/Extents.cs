@@ -54,6 +54,7 @@ namespace DB_Location_XReferencer.Core
         /// </summary>
         /// <value>The maximum longitude.</value>
         public double MaxLongitude { get; private set; } = _maxLongitude;
+
         /// <summary>
         /// Gets the minimum longitude.
         /// </summary>
@@ -128,7 +129,7 @@ namespace DB_Location_XReferencer.Core
         /// <param name="latitude">The latitude.</param>
         /// <param name="longitude">The longitude.</param>
         /// <returns><c>true</c> if the specified coordinates are within the extents; otherwise, <c>false</c>.</returns>
-        public bool IsWithinExtents(double latitude, 
+        public bool IsWithinExtents(double latitude,
             double longitude)
         {
             return ((MinLatitude <= latitude && latitude <= MaxLatitude) &&
